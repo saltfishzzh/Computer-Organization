@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\laylalaisy\Desktop\Second Year\Computer Organization and Design\Project\ProjectCode\demo\Framework.ncd
+OUTFILE=C:\Users\laylalaisy\Desktop\Second Year\Computer Organization and Design\Project\ProjectCode\demo\Framework.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lfbg676
+WORKINGDIR=C:\Users\laylalaisy\Desktop\Second Year\Computer Organization and Design\Project\ProjectCode\demo
+LICENSE=WebPack
+USER_INFO=__0_0_0

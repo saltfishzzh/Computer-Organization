@@ -1,0 +1,4 @@
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog Data_path_more.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/Data_path_more.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog Data_path_more.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/Data_path_more.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog Data_path_more_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/Data_path_more.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog Data_path_more_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/Data_path_more.sch} 

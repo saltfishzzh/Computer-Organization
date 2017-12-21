@@ -1,0 +1,42 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/alu_alu_sch_tb_isim_beh.exe -prj C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/alu_alu_sch_tb_beh.prj work.alu_alu_sch_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/xor32.v" into library work
+Analyzing Verilog file "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/srl32.v" into library work
+Analyzing Verilog file "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/SignalExt_32.v" into library work
+Analyzing Verilog file "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/or_bit_32 .v" into library work
+Analyzing Verilog file "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/or32.v" into library work
+Analyzing Verilog file "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/nor32.v" into library work
+Analyzing Verilog file "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/MUX8T1_32.v" into library work
+Analyzing Verilog file "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/and32.v" into library work
+Analyzing Verilog file "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/ADC32.v" into library work
+Analyzing Verilog file "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/alu.vf" into library work
+Analyzing Verilog file "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/alu_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/alu.vf" Line 52: Port Co is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/alu.vf" Line 55: Size mismatch in connection of port <S>. Formal port size is 32-bit while actual signal size is 33-bit.
+Completed static elaboration
+Fuse Memory Usage: 65816 KB
+Fuse CPU Usage: 327 ms
+Compiling module and32
+Compiling module ADC32
+Compiling module xor32
+Compiling module nor32
+Compiling module MUX8T1_32
+Compiling module or_bit_32
+Compiling module SignalExt_32
+Compiling module GND
+Compiling module or32
+Compiling module srl32
+Compiling module alu
+Compiling module alu_alu_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/alu_alu_sch_tb_isim_beh.exe
+Fuse Memory Usage: 71268 KB
+Fuse CPU Usage: 374 ms

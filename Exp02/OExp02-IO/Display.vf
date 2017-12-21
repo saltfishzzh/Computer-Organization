@@ -1,0 +1,72 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Display.vf
+// /___/   /\     Timestamp : 03/06/2017 23:11:48
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/Magnetization/Desktop/Ogran-Exp2/OExp02-IO/Display.vf -w C:/Users/Magnetization/Desktop/Ogran-Exp2/OExp02-IO/Display.sch
+//Design Name: Display
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Display(clk, 
+               flash, 
+               Hexs, 
+               LES, 
+               point, 
+               rst, 
+               Start, 
+               Text, 
+               segclk, 
+               segclrn, 
+               SEGEN, 
+               segsout);
+
+    input clk;
+    input flash;
+    input [31:0] Hexs;
+    input [7:0] LES;
+    input [7:0] point;
+    input rst;
+    input Start;
+    input Text;
+   output segclk;
+   output segclrn;
+   output SEGEN;
+   output segsout;
+   
+   wire [63:0] XLXN_4;
+   wire [63:0] XLXN_5;
+   wire [63:0] XLXN_6;
+   
+   P2S  XLXI_1 (.clk(clk), 
+               .PData(XLXN_6[63:0]), 
+               .rst(rst), 
+               .Start(Start), 
+               .EN(SEGEN), 
+               .sclk(segclk), 
+               .sclrn(segclrn), 
+               .sout(segsout));
+   HexTo8SEG  XLXI_2 (.flash(flash), 
+                     .Hexs(Hexs[31:0]), 
+                     .LES(LES[7:0]), 
+                     .points(point[7:0]), 
+                     .SEG_TXT(XLXN_4[63:0]));
+   SSeg_map  XLXI_3 (.Disp_num({Hexs[31:0], Hexs[31:0]}), 
+                    .Seg_map(XLXN_5[63:0]));
+   MUX2T1_64  XLXI_4 (.a(XLXN_4[63:0]), 
+                     .b(XLXN_5[63:0]), 
+                     .sel(Text), 
+                     .o(XLXN_6[63:0]));
+endmodule

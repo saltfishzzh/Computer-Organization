@@ -1,0 +1,241 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MC14495_ZJU.vf
+// /___/   /\     Timestamp : 03/06/2017 23:11:48
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family kintex7 -verilog C:/Users/Magnetization/Desktop/Ogran-Exp2/OExp02-IO/MC14495_ZJU.vf -w C:/Users/Magnetization/Desktop/Ogran-Exp2/OExp02-IO/MC14495_ZJU.sch
+//Design Name: MC14495_ZJU
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module MC14495_ZJU(D0, 
+                   D1, 
+                   D2, 
+                   D3, 
+                   LE, 
+                   Point, 
+                   a, 
+                   b, 
+                   c, 
+                   d, 
+                   e, 
+                   f, 
+                   g, 
+                   p);
+
+    input D0;
+    input D1;
+    input D2;
+    input D3;
+    input LE;
+    input Point;
+   output a;
+   output b;
+   output c;
+   output d;
+   output e;
+   output f;
+   output g;
+   output p;
+   
+   wire AA;
+   wire A0;
+   wire A1;
+   wire A2;
+   wire A3;
+   wire A4;
+   wire A5;
+   wire A6;
+   wire A7;
+   wire A8;
+   wire A9;
+   wire A10;
+   wire A11;
+   wire A12;
+   wire A13;
+   wire A14;
+   wire A15;
+   wire A16;
+   wire A17;
+   wire A18;
+   wire A19;
+   wire A20;
+   wire BB;
+   wire CC;
+   wire DD;
+   wire EE;
+   wire FF;
+   wire GG;
+   wire ND0;
+   wire ND1;
+   wire ND2;
+   wire ND3;
+   
+   AND4  AD0 (.I0(ND0), 
+             .I1(ND1), 
+             .I2(D2), 
+             .I3(D3), 
+             .O(A0));
+   AND4  AD1 (.I0(D0), 
+             .I1(D1), 
+             .I2(D2), 
+             .I3(ND3), 
+             .O(A1));
+   AND3  AD2 (.I0(ND1), 
+             .I1(ND2), 
+             .I2(ND3), 
+             .O(A2));
+   AND3  AD3 (.I0(D0), 
+             .I1(D1), 
+             .I2(ND3), 
+             .O(A3));
+   AND3  AD04 (.I0(D1), 
+              .I1(ND2), 
+              .I2(ND3), 
+              .O(A4));
+   AND3  AD05 (.I0(D0), 
+              .I1(ND2), 
+              .I2(ND3), 
+              .O(A5));
+   AND3  AD06 (.I0(D0), 
+              .I1(ND1), 
+              .I2(ND2), 
+              .O(A6));
+   AND3  AD07 (.I0(ND1), 
+              .I1(D2), 
+              .I2(ND3), 
+              .O(A7));
+   AND2  AD08 (.I0(D0), 
+              .I1(ND3), 
+              .O(A8));
+   AND4  AD09 (.I0(ND0), 
+              .I1(D1), 
+              .I2(D3), 
+              .I3(ND2), 
+              .O(A9));
+   AND3  AD10 (.I0(D0), 
+              .I1(D1), 
+              .I2(D2), 
+              .O(A10));
+   AND3  AD11 (.I0(D1), 
+              .I1(D2), 
+              .I2(D3), 
+              .O(A11));
+   AND4  AD12 (.I0(ND0), 
+              .I1(D1), 
+              .I2(ND2), 
+              .I3(ND3), 
+              .O(A12));
+   AND3  AD13 (.I0(D0), 
+              .I1(D1), 
+              .I2(D3), 
+              .O(A13));
+   AND3  AD14 (.I0(ND0), 
+              .I1(D2), 
+              .I2(D3), 
+              .O(A14));
+   AND3  AD15 (.I0(ND0), 
+              .I1(D1), 
+              .I2(D2), 
+              .O(A15));
+   AND4  AD16 (.I0(D0), 
+              .I1(ND1), 
+              .I2(D2), 
+              .I3(ND3), 
+              .O(A16));
+   AND4  AD17 (.I0(D0), 
+              .I1(D1), 
+              .I2(ND2), 
+              .I3(D3), 
+              .O(A17));
+   AND4  AD18 (.I0(D0), 
+              .I1(ND1), 
+              .I2(D2), 
+              .I3(D3), 
+              .O(A18));
+   AND4  AD19 (.I0(ND0), 
+              .I1(ND1), 
+              .I2(D2), 
+              .I3(ND3), 
+              .O(A19));
+   AND4  AD20 (.I0(ND1), 
+              .I1(ND2), 
+              .I2(D0), 
+              .I3(ND3), 
+              .O(A20));
+   OR4  a_1 (.I0(A17), 
+            .I1(A18), 
+            .I2(A19), 
+            .I3(A20), 
+            .O(AA));
+   OR4  b_1 (.I0(A13), 
+            .I1(A14), 
+            .I2(A15), 
+            .I3(A16), 
+            .O(BB));
+   OR3  c_1 (.I0(A11), 
+            .I1(A12), 
+            .I2(A14), 
+            .O(CC));
+   OR4  d_1 (.I0(A9), 
+            .I1(A10), 
+            .I2(A19), 
+            .I3(A20), 
+            .O(DD));
+   OR3  e_1 (.I0(A6), 
+            .I1(A7), 
+            .I2(A8), 
+            .O(EE));
+   OR4  f_1 (.I0(A3), 
+            .I1(A4), 
+            .I2(A5), 
+            .I3(A18), 
+            .O(FF));
+   OR3  g_1 (.I0(A0), 
+            .I1(A1), 
+            .I2(A2), 
+            .O(GG));
+   INV  INV_1 (.I(D3), 
+              .O(ND3));
+   INV  INV_2 (.I(D2), 
+              .O(ND2));
+   INV  INV_3 (.I(D1), 
+              .O(ND1));
+   INV  INV_4 (.I(D0), 
+              .O(ND0));
+   OR2  XLXI_68 (.I0(LE), 
+                .I1(AA), 
+                .O(a));
+   OR2  XLXI_69 (.I0(LE), 
+                .I1(BB), 
+                .O(b));
+   OR2  XLXI_70 (.I0(LE), 
+                .I1(CC), 
+                .O(c));
+   OR2  XLXI_71 (.I0(LE), 
+                .I1(DD), 
+                .O(d));
+   OR2  XLXI_72 (.I0(LE), 
+                .I1(EE), 
+                .O(e));
+   OR2  XLXI_73 (.I0(LE), 
+                .I1(FF), 
+                .O(f));
+   OR2  XLXI_74 (.I0(LE), 
+                .I1(GG), 
+                .O(g));
+   INV  XLXI_89 (.I(Point), 
+                .O(p));
+endmodule

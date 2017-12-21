@@ -1,0 +1,4 @@
+verilog work "MC14495_ZJU.vf"
+verilog work "HexTo8SEG.v"
+verilog work "HexTo8SEG_demo.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

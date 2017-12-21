@@ -1,0 +1,12 @@
+vhdtdtfi -lib work {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.v} -lang verilog -prj FrameworkFinal -o SCPU_ctrl_INT.spl -module SCPU_ctrl_INT -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU_ctrl_INT.spl {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.sym} 
+vhdtdtfi -lib work {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.v} -lang verilog -prj FrameworkFinal -o SCPU_ctrl_INT.spl -module SCPU_ctrl_INT -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU_ctrl_INT.spl {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.sym} 
+vhdtdtfi -lib work {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.v} -lang verilog -prj FrameworkFinal -o SCPU_ctrl_INT.spl -module SCPU_ctrl_INT -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU_ctrl_INT.spl {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.sym} 
+vhdtdtfi -lib work {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.v} -lang verilog -prj FrameworkFinal -o SCPU_ctrl_INT.spl -module SCPU_ctrl_INT -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU_ctrl_INT.spl {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.sym} 
+vhdtdtfi -lib work {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.v} -lang verilog -prj FrameworkFinal -o SCPU_ctrl_INT.spl -module SCPU_ctrl_INT -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU_ctrl_INT.spl {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.sym} 
+vhdtdtfi -lib work {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.v} -lang verilog -prj FrameworkFinal -o SCPU_ctrl_INT.spl -module SCPU_ctrl_INT -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU_ctrl_INT.spl {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_ctrl_INT.sym} 

@@ -1,0 +1,45 @@
+xst -intstyle ise -ifn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.xst" -ofn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.syr" 
+xst -intstyle ise -ifn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.xst" -ofn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.syr" 
+xst -intstyle ise -ifn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.xst" -ofn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-2L "Framework.ngc" Framework.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.xst" -ofn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-2L "Framework.ngc" Framework.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.xst" -ofn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-2L "Framework.ngc" Framework.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.xst" -ofn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-2L "Framework.ngc" Framework.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.xst" -ofn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-2L "Framework.ngc" Framework.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.xst" -ofn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-2L "Framework.ngc" Framework.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 
+xst -intstyle ise -ifn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.xst" -ofn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.syr" 
+xst -intstyle ise -ifn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.xst" -ofn "C:/Users/Jerry Chang/Desktop/COD/Exp12/OExp12-MSOC/Framework.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc k7.ucf -p xc7k160t-ffg676-2L "Framework.ngc" Framework.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_map.ncd Framework.ngd Framework.pcf 
+par -w -intstyle ise -ol high -mt off Framework_map.ncd Framework.ncd Framework.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework.twx Framework.ncd -o Framework.twr Framework.pcf -ucf k7.ucf 
+bitgen -intstyle ise -f Framework.ut Framework.ncd 

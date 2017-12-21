@@ -1,0 +1,2 @@
+sch2hdl,-sympath,C:/Users/Jerry Chang/Desktop/COD/Exp11/OExp11-OwnMCPU/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/Users/Jerry Chang/Desktop/COD/Exp11/OExp11-OwnMCPU/MDPath.vf,-w,C:/Users/Jerry Chang/Desktop/COD/Exp11/OExp11-OwnMCPU/MDPath.sch
+sch2hdl,-sympath,C:/Users/Jerry Chang/Desktop/COD/Exp11/OExp11-OwnMCPU/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/Users/Jerry Chang/Desktop/COD/Exp11/OExp11-OwnMCPU/ALU_Decoder.vf,-w,C:/Users/Jerry Chang/Desktop/COD/Exp11/OExp11-OwnMCPU/ALU_Decoder.sch

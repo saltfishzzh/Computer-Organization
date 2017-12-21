@@ -1,0 +1,28 @@
+Command line:
+   SCPU_more_SCPU_more_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53284
+
+Thu May 04 21:27:26 2017
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 846.954 Meg
+
+ Total Signals          : 130
+ Total Nets             : 945
+ Total Signal Drivers   : 53
+ Total Blocks           : 18
+ Total Primitive Blocks : 15
+ Total Processes        : 62
+ Total Traceable Variables  : 41
+ Total Scalar Nets and Variables : 2322
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 689.668 Meg
+
+Thu May 04 21:28:39 2017
+

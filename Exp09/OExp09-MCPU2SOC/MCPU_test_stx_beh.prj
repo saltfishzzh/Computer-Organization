@@ -1,0 +1,5 @@
+verilog isim_temp "MDPath_IO.v"
+verilog isim_temp "MCtrl_IO.v"
+verilog isim_temp "MCPU.v"
+verilog isim_temp "MCPU_test.v"
+verilog isim_temp "D:/ProgramFiles/14.7/ISE_DS/ISE//verilog/src/glbl.v"

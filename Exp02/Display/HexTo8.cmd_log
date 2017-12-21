@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Documents and Settings/Administrator/My Documents/COD/Exp02/Display/HexTo8.v} -lang verilog -prj Display -o HexTo8.spl -module HexTo8 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 HexTo8.spl {C:/Documents and Settings/Administrator/My Documents/COD/Exp02/Display/HexTo8.sym} 

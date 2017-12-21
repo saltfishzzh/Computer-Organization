@@ -1,0 +1,7 @@
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog Data_path_INT_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/Data_path_INT.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog Data_path_INT_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/Data_path_INT.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog Data_path_INT_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/Data_path_INT.sch} 
+sch2sym -intstyle ise -family kintex7 -refsym Data_path_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/Data_path_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/Data_path_INT.sym} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog Data_path_INT_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/Data_path_INT.sch} 
+sch2sym -intstyle ise -family kintex7 -refsym Data_path_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/Data_path_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/Data_path_INT.sym} 
+sch2sym -intstyle ise -family kintex7 -refsym Data_path_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/Data_path_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/Data_path_INT.sym} 

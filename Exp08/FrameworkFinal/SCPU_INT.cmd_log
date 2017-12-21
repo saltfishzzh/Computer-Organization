@@ -1,0 +1,20 @@
+sch2sym -intstyle ise -family kintex7 -refsym SCPU_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sym} 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sym} 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sym} 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sym} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog SCPU_INT.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog SCPU_INT_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog SCPU_INT.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog SCPU_INT_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog SCPU_INT.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog SCPU_INT_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog SCPU_INT_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog SCPU_INT.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog SCPU_INT.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sym} 
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog SCPU_INT_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sym} 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sym} 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sym} 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sym} 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU_INT {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp08/FrameworkFinal/SCPU_INT.sym} 

@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family kintex7 -refsym alu {C:/Users/Jerry Chang/Desktop/COD/Exp05/FrameworkFinal/alu.sch} {C:/Users/Jerry Chang/Desktop/COD/Exp05/FrameworkFinal/alu.sym} 

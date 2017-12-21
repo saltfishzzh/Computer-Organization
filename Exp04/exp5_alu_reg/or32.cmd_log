@@ -1,0 +1,4 @@
+vhdtdtfi -lib work {C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/or32.v} -lang verilog -prj exp5_alu_reg -o or32.spl -module or32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 or32.spl {C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/or32.sym} 
+vhdtdtfi -lib work {C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/or32.v} -lang verilog -prj exp5_alu_reg -o or32.spl -module or32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 or32.spl {C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/or32.sym} 

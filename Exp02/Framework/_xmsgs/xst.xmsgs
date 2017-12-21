@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\SAnti_jitter_IO.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">SAnti_jitter</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 149: Assignment to <arg fmt="%s" index="1">Pulse</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 156: Assignment to <arg fmt="%s" index="1">Clk_CPU</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\SEnter_2_32_IO.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">SEnter_2_32</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\ipcore_dir\RAM_B.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">RAM_B</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\ipcore_dir\ROM_D.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">ROM_D</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 47: Module &lt;<arg fmt="%s" index="1">LED_P2S</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Start</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 48: Module &lt;<arg fmt="%s" index="1">LED_P2S</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PData</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 49: Module &lt;<arg fmt="%s" index="1">LED_P2S</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">sclk</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 50: Module &lt;<arg fmt="%s" index="1">LED_P2S</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">sclrn</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 44: Port <arg fmt="%s" index="1">Serial</arg> is not connected to this instance
+</msg>
+
+<msg type="error" file="HDLCompiler" num="597" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 44: Module <arg fmt="%s" index="1">LED_P2S</arg> does not have a parameter named <arg fmt="%s" index="2">DIR</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\LED_P2S_IO.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">LED_P2S(DATA_BITS=16,DATA_COUNT_BITS=4)</arg>&gt; remains a black box.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 47: Cannot find port <arg fmt="%s" index="1">Start</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 48: Cannot find port <arg fmt="%s" index="1">PData</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 49: Cannot find port <arg fmt="%s" index="1">sclk</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 50: Cannot find port <arg fmt="%s" index="1">sclrn</arg> on this module
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">GPIO</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 56: Module &lt;<arg fmt="%s" index="1">HexTo8</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">points</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 53: Port <arg fmt="%s" index="1">point</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 71: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">a</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 72: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">b</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 73: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">c</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 74: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">d</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 75: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">e</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 76: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">f</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 77: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">g</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 65: Port <arg fmt="%s" index="1">ma</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 85: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">a</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 86: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">b</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 87: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">c</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 88: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">d</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 89: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">e</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 90: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">f</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 91: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">g</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 79: Port <arg fmt="%s" index="1">ma</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 99: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">a</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 100: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">b</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 101: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">c</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 102: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">d</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 103: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">e</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 104: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">f</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 105: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">g</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 93: Port <arg fmt="%s" index="1">ma</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 113: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">a</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 114: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">b</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 115: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">c</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 116: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">d</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 117: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">e</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 118: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">f</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 119: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">g</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 107: Port <arg fmt="%s" index="1">ma</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 127: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">a</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 128: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">b</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 129: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">c</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 130: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">d</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 131: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">e</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 132: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">f</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 133: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">g</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 121: Port <arg fmt="%s" index="1">ma</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 141: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">a</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 142: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">b</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 143: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">c</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 144: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">d</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 145: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">e</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 146: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">f</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 147: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">g</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 135: Port <arg fmt="%s" index="1">ma</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 155: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">a</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 156: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">b</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 157: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">c</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 158: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">d</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 159: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">e</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 160: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">f</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 161: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">g</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 149: Port <arg fmt="%s" index="1">ma</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 169: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">a</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 170: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">b</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 171: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">c</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 172: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">d</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 173: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">e</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 174: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">f</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 175: Module &lt;<arg fmt="%s" index="1">MC14495_ZJU</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">g</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 163: Port <arg fmt="%s" index="1">ma</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\MC14495_ZJU.v" Line 137: Assignment to <arg fmt="%s" index="1">XLXN_38a</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\MC14495_ZJU.v" Line 66: Net &lt;<arg fmt="%s" index="1">XLXN_38</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 71: Cannot find port <arg fmt="%s" index="1">a</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 72: Cannot find port <arg fmt="%s" index="1">b</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 73: Cannot find port <arg fmt="%s" index="1">c</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 74: Cannot find port <arg fmt="%s" index="1">d</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 75: Cannot find port <arg fmt="%s" index="1">e</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 76: Cannot find port <arg fmt="%s" index="1">f</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 77: Cannot find port <arg fmt="%s" index="1">g</arg> on this module
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 23: Empty module &lt;<arg fmt="%s" index="1">HexTo8</arg>&gt; remains a black box.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 56: Cannot find port <arg fmt="%s" index="1">points</arg> on this module
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 23: Empty module &lt;<arg fmt="%s" index="1">Display_MUSER_Framework</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 122: Net &lt;<arg fmt="%s" index="1">rst</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 126: Net &lt;<arg fmt="%s" index="1">XLXN_58[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 127: Net &lt;<arg fmt="%s" index="1">XLXN_59[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 128: Net &lt;<arg fmt="%s" index="1">XLXN_60[31]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 133: Net &lt;<arg fmt="%s" index="1">XLXN_75[31]</arg>&gt; does not have a driver.
+</msg>
+
+</messages>
+

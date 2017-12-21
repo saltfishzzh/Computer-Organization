@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Documents and Settings/Administrator/My Documents/COD/Framework_Final/Framework_Final/elements/srl_sim_isim_beh.exe" -prj "C:/Documents and Settings/Administrator/My Documents/COD/Framework_Final/Framework_Final/elements/srl_sim_beh.prj" "work.srl_sim" "work.glbl" 

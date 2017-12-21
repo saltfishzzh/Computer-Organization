@@ -1,0 +1,135 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Data_path_more.vf
+// /___/   /\     Timestamp : 05/04/2017 16:44:21
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/ipcore_dir" -intstyle ise -family kintex7 -verilog "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/Data_path_more.vf" -w "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/Data_path_more.sch"
+//Design Name: Data_path_more
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Data_path_more(ALUSrc_B, 
+                      ALU_Control, 
+                      Branch, 
+                      clk, 
+                      DatatoReg, 
+                      Data_in, 
+                      inst_field, 
+                      Jal, 
+                      RegDst, 
+                      RegWrite, 
+                      rst, 
+                      ALU_out, 
+                      Data_out, 
+                      overflow, 
+                      PC_out, 
+                      pc_4, 
+                      zero);
+
+    input ALUSrc_B;
+    input [2:0] ALU_Control;
+    input [1:0] Branch;
+    input clk;
+    input [1:0] DatatoReg;
+    input [31:0] Data_in;
+    input [25:0] inst_field;
+    input Jal;
+    input RegDst;
+    input RegWrite;
+    input rst;
+   output [31:0] ALU_out;
+   output [31:0] Data_out;
+   output overflow;
+   output [31:0] PC_out;
+   output [31:0] pc_4;
+   output zero;
+   
+   wire [31:0] a;
+   wire [31:0] b;
+   wire [31:0] imm_32;
+   wire N0;
+   wire [31:0] sb;
+   wire V5;
+   wire [4:0] XLXN_25;
+   wire [4:0] XLXN_27;
+   wire [31:0] XLXN_28;
+   wire [31:0] XLXN_50;
+   wire [31:0] ALU_out_DUMMY;
+   wire [31:0] Data_out_DUMMY;
+   wire [31:0] PC_out_DUMMY;
+   wire [31:0] pc_4_DUMMY;
+   
+   assign ALU_out[31:0] = ALU_out_DUMMY[31:0];
+   assign Data_out[31:0] = Data_out_DUMMY[31:0];
+   assign PC_out[31:0] = PC_out_DUMMY[31:0];
+   assign pc_4[31:0] = pc_4_DUMMY[31:0];
+   MUX2T1_5  XLXI_3 (.I0(XLXN_25[4:0]), 
+                    .I1(inst_field[15:11]), 
+                    .s(RegDst), 
+                    .o(XLXN_27[4:0]));
+   Ext_32  XLXI_4 (.imm_16(inst_field[15:0]), 
+                  .Imm_32(imm_32[31:0]));
+   MUX2T1_32  XLXI_5 (.I0(Data_out_DUMMY[31:0]), 
+                     .I1(imm_32[31:0]), 
+                     .s(ALUSrc_B), 
+                     .o(b[31:0]));
+   MUX2T1_5  XLXI_10 (.I0(inst_field[20:16]), 
+                     .I1({V5, V5, V5, V5, V5}), 
+                     .s(Jal), 
+                     .o(XLXN_25[4:0]));
+   REG32  XLXI_11 (.CE(V5), 
+                  .clk(clk), 
+                  .D(sb[31:0]), 
+                  .rst(rst), 
+                  .Q(PC_out_DUMMY[31:0]));
+   MUX4T1_32  XLXI_12 (.I0(pc_4_DUMMY[31:0]), 
+                      .I1(XLXN_50[31:0]), 
+                      .I2({pc_4_DUMMY[31:28], inst_field[25:0], N0, N0}), 
+                      .I3(a[31:0]), 
+                      .s(Branch[1:0]), 
+                      .o(sb[31:0]));
+   add_32  XLXI_13 (.a(pc_4_DUMMY[31:0]), 
+                   .b({imm_32[29:0], N0, N0}), 
+                   .c(XLXN_50[31:0]));
+   add_32  XLXI_14 (.a(PC_out_DUMMY[31:0]), 
+                   .b({N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, 
+         N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, V5, N0, 
+         N0}), 
+                   .c(pc_4_DUMMY[31:0]));
+   MUX4T1_32  XLXI_15 (.I0(ALU_out_DUMMY[31:0]), 
+                      .I1(Data_in[31:0]), 
+                      .I2({inst_field[15:0], N0, N0, N0, N0, N0, N0, N0, N0, 
+         N0, N0, N0, N0, N0, N0, N0, N0}), 
+                      .I3(pc_4_DUMMY[31:0]), 
+                      .s(DatatoReg[1:0]), 
+                      .o(XLXN_28[31:0]));
+   VCC  XLXI_16 (.P(V5));
+   alu  XLXI_17 (.A(a[31:0]), 
+                .ALU_operation(ALU_Control[2:0]), 
+                .B(b[31:0]), 
+                .overflow(overflow), 
+                .res(ALU_out_DUMMY[31:0]), 
+                .zero(zero));
+   GND  XLXI_18 (.G(N0));
+   Regs  XLXI_19 (.clk(clk), 
+                 .L_S(RegWrite), 
+                 .rst(rst), 
+                 .R_addr_A(inst_field[25:21]), 
+                 .R_addr_B(inst_field[20:16]), 
+                 .Wt_addr(XLXN_27[4:0]), 
+                 .Wt_data(XLXN_28[31:0]), 
+                 .rdata_A(a[31:0]), 
+                 .rdata_B(Data_out_DUMMY[31:0]));
+endmodule

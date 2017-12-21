@@ -1,0 +1,42 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/SCPU_more_SCPU_more_sch_tb_isim_beh.exe -prj C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/SCPU_more_SCPU_more_sch_tb_beh.prj work.SCPU_more_SCPU_more_sch_tb work.glbl 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/Regs.v" into library work
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/REG32.v" into library work
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/MUX4T1_32.v" into library work
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/MUX2T1_5.v" into library work
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/MUX2T1_32.v" into library work
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/Ext_32.v" into library work
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/alu.v" into library work
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/add_32.v" into library work
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/SCPU_ctrl_more.v" into library work
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/Data_path_more.vf" into library work
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/SCPU_more.vf" into library work
+Analyzing Verilog file "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/SCPU_more_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/SCPU_more.vf" Line 184: Port pc_4 is not connected to this instance
+Completed static elaboration
+Compiling module SCPU_ctrl_more
+Compiling module MUX2T1_5
+Compiling module Ext_32
+Compiling module MUX2T1_32
+Compiling module REG32
+Compiling module MUX4T1_32
+Compiling module add_32
+Compiling module VCC
+Compiling module alu
+Compiling module GND
+Compiling module Regs
+Compiling module Data_path_more_MUSER_SCPU_more
+Compiling module SCPU_more
+Compiling module SCPU_more_SCPU_more_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 15 Verilog Units
+Built simulation executable C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/SCPU_more_SCPU_more_sch_tb_isim_beh.exe
+Fuse Memory Usage: 27660 KB
+Fuse CPU Usage: 468 ms

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/srl32.v} -lang verilog -prj exp5_alu_reg -o srl32.spl -module srl32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 srl32.spl {C:/Documents and Settings/Administrator/My Documents/COD/Exp04/exp5_alu_reg/srl32.sym} 

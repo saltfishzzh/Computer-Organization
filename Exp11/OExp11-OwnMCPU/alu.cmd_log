@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Users/Jerry Chang/Desktop/COD/Exp10/OExp10-MDP/alu.v} -lang verilog -prj OExp10-MDP -o alu.spl -module alu -template C:/Xilinx/14.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 alu.spl {C:/Users/Jerry Chang/Desktop/COD/Exp10/OExp10-MDP/alu.sym} 

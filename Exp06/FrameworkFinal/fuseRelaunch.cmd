@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Jerry Chang/Desktop/COD/Exp06/FrameworkFinal/SCPU_ctrl_test_isim_beh.exe" -prj "C:/Users/Jerry Chang/Desktop/COD/Exp06/FrameworkFinal/SCPU_ctrl_test_beh.prj" "work.SCPU_ctrl_test" "work.glbl" 

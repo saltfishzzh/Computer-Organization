@@ -1,0 +1,116 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    19:00:23 05/16/2017 
+// Design Name: 
+// Module Name:    MCPU 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module MCPU(clk, 
+            Data_in, 
+            INT, 
+            MIO_ready, 
+            reset, 
+            Addr_out, 
+            CPU_MIO, 
+            Data_out, 
+            inst_out, 
+            mem_w, 
+            PC_out, 
+            state);
+
+    input clk;
+    input [31:0] Data_in;
+    input INT;
+    input MIO_ready;
+    input reset;
+   output [31:0] Addr_out;
+   output CPU_MIO;
+   output [31:0] Data_out;
+   output [31:0] inst_out;
+   output mem_w;
+   output [31:0] PC_out;
+   output [4:0] state;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire [1:0] XLXN_8;
+   wire [1:0] XLXN_9;
+   wire [1:0] XLXN_10;
+   wire [1:0] XLXN_11;
+   wire [2:0] XLXN_12;
+   wire XLXN_18;
+   wire XLXN_25;
+   wire XLXN_28;
+   wire XLXN_29;
+   wire XLXN_30;
+   wire [31:0] inst_out_DUMMY;
+   
+   assign inst_out[31:0] = inst_out_DUMMY[31:0];
+   MCtrl  XLXI_1 (.clk(clk), 
+                 .Inst_in(inst_out_DUMMY[31:0]), 
+                 .MIO_ready(MIO_ready), 
+                 .overflow(XLXN_18), 
+                 .reset(reset), 
+                 .zero(XLXN_25), 
+                 .ALUSrcA(XLXN_4), 
+                 .ALUSrcB(XLXN_10[1:0]), 
+                 .ALU_operation(XLXN_12[2:0]), 
+                 .Branch(XLXN_7), 
+                 .CPU_MIO(CPU_MIO), 
+                 .IorD(XLXN_1), 
+                 .IRWrite(XLXN_2), 
+                 .MemRead(XLXN_28), 
+                 .MemtoReg(XLXN_9[1:0]), 
+                 .MemWrite(XLXN_29), 
+                 .PCSource(XLXN_11[1:0]), 
+                 .PCWrite(XLXN_5), 
+                 .PCWriteCond(XLXN_6), 
+                 .RegDst(XLXN_8[1:0]), 
+                 .RegWrite(XLXN_3), 
+                 .state_out(state[4:0]));
+   MDPath  XLXI_3 (.ALUSrcA(XLXN_4), 
+                  .ALUSrcB(XLXN_10[1:0]), 
+                  .ALU_operation(XLXN_12[2:0]), 
+                  .Branch(XLXN_7), 
+                  .clk(clk), 
+                  .data2CPU(Data_in[31:0]), 
+                  .IorD(XLXN_1), 
+                  .IRWrite(XLXN_2), 
+                  .MemtoReg(XLXN_9[1:0]), 
+                  .MIO_ready(MIO_ready), 
+                  .PCSource(XLXN_11[1:0]), 
+                  .PCWrite(XLXN_5), 
+                  .PCWriteCond(XLXN_6), 
+                  .RegDst(XLXN_8[1:0]), 
+                  .RegWrite(XLXN_3), 
+                  .reset(reset), 
+                  .data_out(Data_out[31:0]), 
+                  .Inst(inst_out_DUMMY[31:0]), 
+                  .M_addr(Addr_out[31:0]), 
+                  .overflow(XLXN_18), 
+                  .PC_Current(PC_out[31:0]), 
+                  .zero(XLXN_25));
+   INV  XLXI_4 (.I(XLXN_28), 
+               .O(XLXN_30));
+   AND2  XLXI_5 (.I0(XLXN_29), 
+                .I1(XLXN_30), 
+                .O(mem_w));
+endmodule

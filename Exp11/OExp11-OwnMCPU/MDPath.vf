@@ -1,0 +1,179 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MDPath.vf
+// /___/   /\     Timestamp : 05/16/2017 21:21:17
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath "C:/Users/Jerry Chang/Desktop/COD/Exp11/OExp11-OwnMCPU/ipcore_dir" -intstyle ise -family kintex7 -verilog "C:/Users/Jerry Chang/Desktop/COD/Exp11/OExp11-OwnMCPU/MDPath.vf" -w "C:/Users/Jerry Chang/Desktop/COD/Exp11/OExp11-OwnMCPU/MDPath.sch"
+//Design Name: MDPath
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module MDPath(ALUSrcA, 
+              ALUSrcB, 
+              ALU_operation, 
+              Branch, 
+              clk, 
+              data2CPU, 
+              IorD, 
+              IRWrite, 
+              MemtoReg, 
+              MIO_ready, 
+              PCSource, 
+              PCWrite, 
+              PCWriteCond, 
+              RegDst, 
+              RegWrite, 
+              reset, 
+              data_out, 
+              Inst, 
+              M_addr, 
+              overflow, 
+              PC_Current, 
+              zero);
+
+    input ALUSrcA;
+    input [1:0] ALUSrcB;
+    input [2:0] ALU_operation;
+    input Branch;
+    input clk;
+    input [31:0] data2CPU;
+    input IorD;
+    input IRWrite;
+    input [1:0] MemtoReg;
+    input MIO_ready;
+    input [1:0] PCSource;
+    input PCWrite;
+    input PCWriteCond;
+    input [1:0] RegDst;
+    input RegWrite;
+    input reset;
+   output [31:0] data_out;
+   output [31:0] Inst;
+   output [31:0] M_addr;
+   output overflow;
+   output [31:0] PC_Current;
+   output zero;
+   
+   wire [31:0] Imm_32;
+   wire N0;
+   wire [31:0] res;
+   wire V5;
+   wire XLXN_16;
+   wire XLXN_17;
+   wire XLXN_18;
+   wire XLXN_25;
+   wire [4:0] XLXN_35;
+   wire [31:0] XLXN_36;
+   wire [31:0] XLXN_41;
+   wire [31:0] XLXN_42;
+   wire [31:0] XLXN_54;
+   wire [31:0] XLXN_55;
+   wire [31:0] XLXN_57;
+   wire [31:0] XLXN_68;
+   wire [31:0] PC_Current_DUMMY;
+   wire zero_DUMMY;
+   wire [31:0] Inst_DUMMY;
+   wire [31:0] data_out_DUMMY;
+   
+   assign data_out[31:0] = data_out_DUMMY[31:0];
+   assign Inst[31:0] = Inst_DUMMY[31:0];
+   assign PC_Current[31:0] = PC_Current_DUMMY[31:0];
+   assign zero = zero_DUMMY;
+   Regs  XLXI_1 (.clk(clk), 
+                .L_S(RegWrite), 
+                .rst(reset), 
+                .R_addr_A(Inst_DUMMY[25:21]), 
+                .R_addr_B(Inst_DUMMY[20:16]), 
+                .Wt_addr(XLXN_35[4:0]), 
+                .Wt_data(XLXN_36[31:0]), 
+                .rdata_A(XLXN_55[31:0]), 
+                .rdata_B(data_out_DUMMY[31:0]));
+   MUX4T1_5  XLXI_2 (.I0(Inst_DUMMY[20:16]), 
+                    .I1(Inst_DUMMY[15:11]), 
+                    .I2(), 
+                    .I3(), 
+                    .s(RegDst[1:0]), 
+                    .o(XLXN_35[4:0]));
+   MUX4T1_32  XLXI_3 (.I0(XLXN_42[31:0]), 
+                     .I1(XLXN_41[31:0]), 
+                     .I2(), 
+                     .I3(), 
+                     .s(MemtoReg[1:0]), 
+                     .o(XLXN_36[31:0]));
+   REG32  XLXI_4 (.CE(IRWrite), 
+                 .clk(clk), 
+                 .D(data2CPU[31:0]), 
+                 .rst(reset), 
+                 .Q(Inst_DUMMY[31:0]));
+   Ext_32  XLXI_6 (.imm_16(Inst_DUMMY[15:0]), 
+                  .Imm_32(Imm_32[31:0]));
+   alu  XLXI_7 (.A(XLXN_57[31:0]), 
+               .ALU_operation(ALU_operation[2:0]), 
+               .B(XLXN_54[31:0]), 
+               .overflow(overflow), 
+               .res(res[31:0]), 
+               .zero(zero_DUMMY));
+   MUX2T1_32  XLXI_8 (.I0(PC_Current_DUMMY[31:0]), 
+                     .I1(XLXN_55[31:0]), 
+                     .s(ALUSrcA), 
+                     .o(XLXN_57[31:0]));
+   MUX4T1_32  XLXI_9 (.I0(data_out_DUMMY[31:0]), 
+                     .I1({N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, 
+         N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, N0, V5, 
+         N0, N0}), 
+                     .I2(Imm_32[31:0]), 
+                     .I3({Imm_32[29:0], N0, N0}), 
+                     .s(ALUSrcB[1:0]), 
+                     .o(XLXN_54[31:0]));
+   MUX4T1_32  XLXI_10 (.I0(res[31:0]), 
+                      .I1(XLXN_42[31:0]), 
+                      .I2({PC_Current_DUMMY[31:28], Inst_DUMMY[25:0], N0, N0}), 
+                      .I3(), 
+                      .s(PCSource[1:0]), 
+                      .o(XLXN_68[31:0]));
+   MUX2T1_32  XLXI_11 (.I0(PC_Current_DUMMY[31:0]), 
+                      .I1(XLXN_42[31:0]), 
+                      .s(IorD), 
+                      .o(M_addr[31:0]));
+   REG32  XLXI_12 (.CE(V5), 
+                  .clk(clk), 
+                  .D(res[31:0]), 
+                  .rst(N0), 
+                  .Q(XLXN_42[31:0]));
+   AND2  XLXI_13 (.I0(zero_DUMMY), 
+                 .I1(Branch), 
+                 .O(XLXN_17));
+   AND2  XLXI_14 (.I0(XLXN_17), 
+                 .I1(PCWriteCond), 
+                 .O(XLXN_18));
+   AND2  XLXI_15 (.I0(XLXN_16), 
+                 .I1(MIO_ready), 
+                 .O(XLXN_25));
+   OR2  XLXI_16 (.I0(XLXN_18), 
+                .I1(PCWrite), 
+                .O(XLXN_16));
+   REG32  XLXI_17 (.CE(XLXN_25), 
+                  .clk(clk), 
+                  .D(XLXN_68[31:0]), 
+                  .rst(reset), 
+                  .Q(PC_Current_DUMMY[31:0]));
+   REG32  XLXI_18 (.CE(V5), 
+                  .clk(clk), 
+                  .D(data2CPU[31:0]), 
+                  .rst(N0), 
+                  .Q(XLXN_41[31:0]));
+   VCC  XLXI_19 (.P(V5));
+   GND  XLXI_20 (.G(N0));
+endmodule

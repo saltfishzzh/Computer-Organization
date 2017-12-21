@@ -1,0 +1,2 @@
+sch2hdl,-sympath,C:/Users/Jerry Chang/Desktop/COD/Exp05/FrameworkFinal/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/Users/Jerry Chang/Desktop/COD/Exp05/FrameworkFinal/SCPU.vf,-w,C:/Users/Jerry Chang/Desktop/COD/Exp05/FrameworkFinal/SCPU.sch
+sch2hdl,-sympath,C:/Users/Jerry Chang/Desktop/COD/Exp05/FrameworkFinal/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/Users/Jerry Chang/Desktop/COD/Exp05/FrameworkFinal/Framework.vf,-w,C:/Users/Jerry Chang/Desktop/COD/Exp05/FrameworkFinal/Framework.sch

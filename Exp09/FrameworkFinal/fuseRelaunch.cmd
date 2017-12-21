@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/SCPU_more_SCPU_more_sch_tb_isim_beh.exe" -prj "C:/Users/Jerry Chang/Desktop/COD/Exp07/FrameworkFinal/SCPU_more_SCPU_more_sch_tb_beh.prj" "work.SCPU_more_SCPU_more_sch_tb" "work.glbl" 

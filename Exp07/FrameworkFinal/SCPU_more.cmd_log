@@ -1,0 +1,1 @@
+sch2hdl -sympath {C:/Users/Jerry Chang/Desktop/COD/Exp05/FrameworkFinal/ipcore_dir} -intstyle ise -family kintex7 -verilog SCPU_more_drc.vf -w {C:/Users/Jerry Chang/Desktop/COD/Exp05/FrameworkFinal/SCPU_more.sch} 

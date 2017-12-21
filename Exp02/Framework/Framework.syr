@@ -1,0 +1,308 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: Framework.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Framework.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Framework"
+Output Format                      : NGC
+Target Device                      : xc7k160t-2L-fbg676
+
+---- Source Options
+Top Module Name                    : Framework
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\MC14495_ZJU.v" into library work
+Parsing module <MC14495_ZJU>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Segmap.v" into library work
+Parsing module <Segmap>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\P2S_IO.v" into library work
+Parsing module <P2S>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\MUX8T1_8.v" into library work
+Parsing module <MUX8T1_8>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\MUX8T1_32.v" into library work
+Parsing module <MUX8T1_32>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\MUX2T1_64.v" into library work
+Parsing module <MUX2T1_64>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\LED_P2S_IO.v" into library work
+Parsing module <LED_P2S>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" into library work
+Parsing module <HexTo8>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\SEnter_2_32_IO.v" into library work
+Parsing module <SEnter_2_32>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\SAnti_jitter_IO.v" into library work
+Parsing module <SAnti_jitter>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Multi_8CH32.v" into library work
+Parsing module <Multi_8CH32>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\ipcore_dir\ROM_D.v" into library work
+Parsing module <ROM_D>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\ipcore_dir\RAM_B.v" into library work
+Parsing module <RAM_B>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" into library work
+Parsing module <GPIO>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Display.vf" into library work
+Parsing module <Display>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\clk_div.v" into library work
+Parsing module <clk_div>.
+Analyzing Verilog file "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" into library work
+Parsing module <Display_MUSER_Framework>.
+Parsing module <Framework>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Framework>.
+
+Elaborating module <SAnti_jitter>.
+WARNING:HDLCompiler:1499 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\SAnti_jitter_IO.v" Line 21: Empty module <SAnti_jitter> remains a black box.
+WARNING:HDLCompiler:1127 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 149: Assignment to Pulse ignored, since the identifier is never used
+
+Elaborating module <clk_div>.
+WARNING:HDLCompiler:1127 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 156: Assignment to Clk_CPU ignored, since the identifier is never used
+
+Elaborating module <Multi_8CH32>.
+
+Elaborating module <MUX8T1_32>.
+
+Elaborating module <MUX8T1_8>.
+
+Elaborating module <SEnter_2_32>.
+WARNING:HDLCompiler:1499 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\SEnter_2_32_IO.v" Line 21: Empty module <SEnter_2_32> remains a black box.
+
+Elaborating module <VCC>.
+
+Elaborating module <GND>.
+
+Elaborating module <RAM_B>.
+WARNING:HDLCompiler:1499 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
+
+Elaborating module <ROM_D>.
+WARNING:HDLCompiler:1499 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\ipcore_dir\ROM_D.v" Line 39: Empty module <ROM_D> remains a black box.
+
+Elaborating module <INV>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 47: Module <LED_P2S> does not have a port named <Start>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 48: Module <LED_P2S> does not have a port named <PData>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 49: Module <LED_P2S> does not have a port named <sclk>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 50: Module <LED_P2S> does not have a port named <sclrn>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 44: Port Serial is not connected to this instance
+
+Elaborating module <GPIO>.
+ERROR:HDLCompiler:597 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 44: Module LED_P2S does not have a parameter named DIR
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:597"
+
+Elaborating module <LED_P2S(DATA_BITS=16,DATA_COUNT_BITS=4)>.
+WARNING:HDLCompiler:1499 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\LED_P2S_IO.v" Line 21: Empty module <LED_P2S(DATA_BITS=16,DATA_COUNT_BITS=4)> remains a black box.
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 47: Cannot find port Start on this module
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 48: Cannot find port PData on this module
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 49: Cannot find port sclk on this module
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 50: Cannot find port sclrn on this module
+Module GPIO remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\GPIO.v" Line 21: Empty module <GPIO> remains a black box.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 56: Module <HexTo8> does not have a port named <points>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 53: Port point is not connected to this instance
+
+Elaborating module <Display_MUSER_Framework>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 71: Module <MC14495_ZJU> does not have a port named <a>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 72: Module <MC14495_ZJU> does not have a port named <b>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 73: Module <MC14495_ZJU> does not have a port named <c>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 74: Module <MC14495_ZJU> does not have a port named <d>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 75: Module <MC14495_ZJU> does not have a port named <e>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 76: Module <MC14495_ZJU> does not have a port named <f>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 77: Module <MC14495_ZJU> does not have a port named <g>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 65: Port ma is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 85: Module <MC14495_ZJU> does not have a port named <a>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 86: Module <MC14495_ZJU> does not have a port named <b>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 87: Module <MC14495_ZJU> does not have a port named <c>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 88: Module <MC14495_ZJU> does not have a port named <d>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 89: Module <MC14495_ZJU> does not have a port named <e>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 90: Module <MC14495_ZJU> does not have a port named <f>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 91: Module <MC14495_ZJU> does not have a port named <g>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 79: Port ma is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 99: Module <MC14495_ZJU> does not have a port named <a>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 100: Module <MC14495_ZJU> does not have a port named <b>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 101: Module <MC14495_ZJU> does not have a port named <c>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 102: Module <MC14495_ZJU> does not have a port named <d>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 103: Module <MC14495_ZJU> does not have a port named <e>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 104: Module <MC14495_ZJU> does not have a port named <f>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 105: Module <MC14495_ZJU> does not have a port named <g>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 93: Port ma is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 113: Module <MC14495_ZJU> does not have a port named <a>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 114: Module <MC14495_ZJU> does not have a port named <b>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 115: Module <MC14495_ZJU> does not have a port named <c>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 116: Module <MC14495_ZJU> does not have a port named <d>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 117: Module <MC14495_ZJU> does not have a port named <e>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 118: Module <MC14495_ZJU> does not have a port named <f>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 119: Module <MC14495_ZJU> does not have a port named <g>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 107: Port ma is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 127: Module <MC14495_ZJU> does not have a port named <a>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 128: Module <MC14495_ZJU> does not have a port named <b>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 129: Module <MC14495_ZJU> does not have a port named <c>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 130: Module <MC14495_ZJU> does not have a port named <d>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 131: Module <MC14495_ZJU> does not have a port named <e>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 132: Module <MC14495_ZJU> does not have a port named <f>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 133: Module <MC14495_ZJU> does not have a port named <g>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 121: Port ma is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 141: Module <MC14495_ZJU> does not have a port named <a>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 142: Module <MC14495_ZJU> does not have a port named <b>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 143: Module <MC14495_ZJU> does not have a port named <c>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 144: Module <MC14495_ZJU> does not have a port named <d>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 145: Module <MC14495_ZJU> does not have a port named <e>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 146: Module <MC14495_ZJU> does not have a port named <f>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 147: Module <MC14495_ZJU> does not have a port named <g>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 135: Port ma is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 155: Module <MC14495_ZJU> does not have a port named <a>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 156: Module <MC14495_ZJU> does not have a port named <b>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 157: Module <MC14495_ZJU> does not have a port named <c>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 158: Module <MC14495_ZJU> does not have a port named <d>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 159: Module <MC14495_ZJU> does not have a port named <e>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 160: Module <MC14495_ZJU> does not have a port named <f>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 161: Module <MC14495_ZJU> does not have a port named <g>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 149: Port ma is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 169: Module <MC14495_ZJU> does not have a port named <a>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 170: Module <MC14495_ZJU> does not have a port named <b>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 171: Module <MC14495_ZJU> does not have a port named <c>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 172: Module <MC14495_ZJU> does not have a port named <d>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 173: Module <MC14495_ZJU> does not have a port named <e>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 174: Module <MC14495_ZJU> does not have a port named <f>.
+WARNING:HDLCompiler:25 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 175: Module <MC14495_ZJU> does not have a port named <g>.
+WARNING:HDLCompiler:1016 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 163: Port ma is not connected to this instance
+
+Elaborating module <HexTo8>.
+
+Elaborating module <AND2>.
+
+Elaborating module <MC14495_ZJU>.
+
+Elaborating module <AND4>.
+
+Elaborating module <OR4>.
+
+Elaborating module <AND3>.
+WARNING:HDLCompiler:1127 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\MC14495_ZJU.v" Line 137: Assignment to XLXN_38a ignored, since the identifier is never used
+
+Elaborating module <OR3>.
+
+Elaborating module <OR2>.
+WARNING:HDLCompiler:634 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\MC14495_ZJU.v" Line 66: Net <XLXN_38> does not have a driver.
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 71: Cannot find port a on this module
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 72: Cannot find port b on this module
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 73: Cannot find port c on this module
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 74: Cannot find port d on this module
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 75: Cannot find port e on this module
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 76: Cannot find port f on this module
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 77: Cannot find port g on this module
+Module HexTo8 remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\HexTo8.v" Line 23: Empty module <HexTo8> remains a black box.
+ERROR:HDLCompiler:267 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 56: Cannot find port points on this module
+Module Display_MUSER_Framework remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 23: Empty module <Display_MUSER_Framework> remains a black box.
+WARNING:HDLCompiler:634 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 122: Net <rst> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 126: Net <XLXN_58[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 127: Net <XLXN_59[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 128: Net <XLXN_60[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Documents and Settings\Administrator\My Documents\COD\Exp02\Framework\Framework.vf" Line 133: Net <XLXN_75[31]> does not have a driver.
+--> 
+
+Total memory usage is 135568 kilobytes
+
+Number of errors   :   13 (   0 filtered)
+Number of warnings :   88 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
